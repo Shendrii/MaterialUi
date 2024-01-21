@@ -81,16 +81,7 @@ function App() {
         <ToggleButtontry handleFormat={handleFormat} format={format} />
       </Stack>
 
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
-
-      <Stack direction="row"></Stack>
-      <Stack direction="row"></Stack>
+    
     </div>
   );
 }
