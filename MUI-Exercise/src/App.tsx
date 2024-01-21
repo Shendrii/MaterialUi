@@ -14,6 +14,8 @@ import { Book } from "@mui/icons-material";
 
 import ToggleButtontry from "./components/ToggleButtontry";
 import CardTry from "./components/CardTry";
+import CustomizedSwitches from "./components/CustomizedSwitches";
+import ControlledAccordions from "./components/ControlledAccordions";
 
 function App() {
   const [format, setFormat] = useState<string | null>("");
@@ -34,7 +36,7 @@ function App() {
             <Book />
           </IconButton>
           <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
-            BOOK
+            NavBar and Buttons
           </Typography>
           <Stack direction="row" spacing={2}>
             <Button color="inherit" variant="text">
@@ -66,8 +68,9 @@ function App() {
           <CardTry />
           <CardTry />
         </Stack>
+        <Stack direction="row"></Stack>
         <Stack direction="row">
-          <Typography variant="h1">TextFields</Typography>
+          <Typography variant="h1">TextFields and ToggleButtons</Typography>
         </Stack>
         <Stack direction="row">
           <TextField id="outlined-basic" label="Outlined" variant="outlined" />
@@ -80,8 +83,19 @@ function App() {
         {" "}
         <ToggleButtontry handleFormat={handleFormat} format={format} />
       </Stack>
+      <Stack direction="row">
+        <Typography variant="h1">Switches</Typography>
+      </Stack>
 
-    
+      <Stack sx={{ border: 3 }} direction="row">
+        <CustomizedSwitches />
+      </Stack>
+      <Stack direction="row">
+        <Typography variant="h1">Accordions</Typography>
+      </Stack>
+      <Stack direction="row">
+        <ControlledAccordions />
+      </Stack>
     </div>
   );
 }

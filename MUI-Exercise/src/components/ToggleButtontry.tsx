@@ -5,7 +5,7 @@ import {
 } from "@mui/icons-material";
 import { TextField, ToggleButton, ToggleButtonGroup } from "@mui/material";
 interface Props {
-  format: string;
+  format: string | null;
   handleFormat: string;
 }
 
