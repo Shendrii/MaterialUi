@@ -25,7 +25,7 @@ export default function ControlledAccordions() {
           id="panel1bh-header"
         >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>
-            General settings
+           Lorem
           </Typography>
           <Typography sx={{ color: "text.secondary" }}>
             I am an accordion
@@ -70,7 +70,7 @@ export default function ControlledAccordions() {
           id="panel3bh-header"
         >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>
-            Advanced settings
+            Lorem
           </Typography>
           <Typography sx={{ color: "text.secondary" }}>
             Filtering has been entirely disabled for whole web server
@@ -93,7 +93,7 @@ export default function ControlledAccordions() {
           id="panel4bh-header"
         >
           <Typography sx={{ width: "33%", flexShrink: 0 }}>
-            Personal data
+           Lorem
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
